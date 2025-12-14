@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-  overscroll-behavior: none;
+    background-color: #1F2937;
 }
 .header {
     display: flex;
@@ -47,6 +47,7 @@ li {
     flex-direction: column;
     justify-content: space-around;
     min-height: 600px;
+    background-color: white;
 }
 
 
@@ -100,7 +101,8 @@ img:not(.top_image) {
 }
 
 .section-four {
-    margin: 100px;
+    padding: 100px;
+    background-color: white;
 }
 
 .b_four {
