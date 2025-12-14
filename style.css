@@ -1,0 +1,141 @@
+html, body {
+  margin: 0;
+}
+
+body {
+  overscroll-behavior: none;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1F2937;
+    color: white;
+    min-height: 600px;
+    gap: 50px;
+}
+
+.top {
+    display: flex;
+    font-size: 24px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    font-size: 28px;
+}
+
+.logo {
+    font-size: 40px;
+}
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.two {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 600px;
+}
+
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+img:not(.top_image) {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    outline-color: lightblue;
+    outline-style:groove;
+    outline-width: 3px;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(209, 207, 207);
+    min-height: 500px;
+    gap: 30px;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 20px;
+}
+
+.quote {
+    font-size: 46px;
+    font-weight: 400;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(52, 98, 248);
+    color: white;
+    min-height: 200px;
+    font-size: 25px;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.section-four {
+    margin: 100px;
+}
+
+.b_four {
+    outline-color: white;
+    outline-style: solid;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1F2937;
+    color: white;
+    min-height: 80px;
+    align-items: center;
+    font-size: 24px;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.top, .bottom, .item, .quote, .author{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+button {
+    background-color: rgb(52, 98, 248);
+    color: white;
+    padding: 15px 40px;
+    font-size:medium;
+    border-radius: 20px;
+}
